@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,6 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activity.SimpleCircleActivity"
+            android:label="@string/title_activity_simple_circle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.DrawColorActivity"
+            android:label="@string/title_activity_draw_color"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.DrawPathActivity"
+            android:label="@string/title_activity_draw_path"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

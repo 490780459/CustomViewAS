@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">CustomView</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_simple_circle">SimpleCircleActivity</string>
+    <string name="title_activity_draw_color">DrawColorActivity</string>
+    <string name="title_activity_draw_path">DrawPathActivity</string>
 </resources>
