@@ -77,12 +77,12 @@ public class DrawColorView extends View {
 //        canvas.drawArc(200, 100, 800, 500, -110, 100, true, mPaint);// 绘制扇形
 //        canvas.drawArc(200, 100, 800, 500, 20, 140, false, mPaint); // 绘制弧形
 //
-//        mPaint.setStyle(Paint.Style.STROKE); // 画线模式
-//        canvas.drawArc(200, 100, 800, 500, 180, 60, false, mPaint); // 绘制不封口的弧形
+        mPaint.setStyle(Paint.Style.STROKE); // 画线模式
+        canvas.drawArc(200, 100, 800, 500, 180, 60, false, mPaint); // 绘制不封口的弧形
 
 
 
-        
+
     }
 
 }
