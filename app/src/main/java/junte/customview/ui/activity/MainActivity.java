@@ -29,6 +29,8 @@ import junte.customview.ui.SimpleCircleViewHolder;
  * <br> Author:      liupeiyang
  * <br> Date:        2018/2/24 11:24
  */
+/**/
+
 public class MainActivity extends BaseActivity implements OnItemClickLitener {
 
     @BindView(R.id.rv_root)
@@ -61,7 +63,7 @@ public class MainActivity extends BaseActivity implements OnItemClickLitener {
         datas.add("Simple Circle");
         datas.add("Draw Color");
 
-        datas.add( "Draw Path");
+        datas.add("Draw Path");
         mAdapter = new HomeAdapter(this, this, datas);
         mRvData.setAdapter(mAdapter);
     }
@@ -79,7 +81,7 @@ public class MainActivity extends BaseActivity implements OnItemClickLitener {
                 startActivity(new Intent(MainActivity.this, SimpleCircleActivity.class));
             } else if ("Draw Color".equals(data)) {
                 startActivity(new Intent(MainActivity.this, DrawColorActivity.class));
-            }else if ("Draw Path".equals(data)) {
+            } else if ("Draw Path".equals(data)) {
                 startActivity(new Intent(MainActivity.this, DrawPathActivity.class));
             }
         }
@@ -130,7 +132,7 @@ public class MainActivity extends BaseActivity implements OnItemClickLitener {
             final String data = list.get(position);
 
 //            if (list.size() - 1 == position) {
-                ((SimpleCircleViewHolder) holder).line.setVisibility(View.GONE);
+            ((SimpleCircleViewHolder) holder).line.setVisibility(View.GONE);
 //            }
 
             ((SimpleCircleViewHolder) holder).mTvName.setText(list.get(position));
