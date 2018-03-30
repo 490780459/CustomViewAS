@@ -24,12 +24,12 @@ import junte.customview.ui.SimpleCircleViewHolder;
 
 /**
  * <br> ClassName:   MainActivity
- * <br> Description: todo(这里用一句话描述这个类的作用)
+ * <br> Description: 首页啦
  * <br>
  * <br> Author:      liupeiyang
  * <br> Date:        2018/2/24 11:24
  */
-/**/
+
 
 public class MainActivity extends BaseActivity implements OnItemClickLitener {
 
@@ -64,6 +64,10 @@ public class MainActivity extends BaseActivity implements OnItemClickLitener {
         datas.add("Draw Color");
 
         datas.add("Draw Path");
+        datas.add("Shader");
+
+
+
         mAdapter = new HomeAdapter(this, this, datas);
         mRvData.setAdapter(mAdapter);
     }
@@ -83,7 +87,11 @@ public class MainActivity extends BaseActivity implements OnItemClickLitener {
                 startActivity(new Intent(MainActivity.this, DrawColorActivity.class));
             } else if ("Draw Path".equals(data)) {
                 startActivity(new Intent(MainActivity.this, DrawPathActivity.class));
+            }else if ("Shader".equals(data)) {
+                startActivity(new Intent(MainActivity.this, ShaderActivity.class));
             }
+
+
         }
 
 

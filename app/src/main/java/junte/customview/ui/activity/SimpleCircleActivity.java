@@ -2,6 +2,7 @@ package junte.customview.ui.activity;
 
 import junte.customview.R;
 
+
 public class SimpleCircleActivity extends BaseActivity{
 
     @Override

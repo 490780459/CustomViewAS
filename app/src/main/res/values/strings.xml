@@ -4,4 +4,5 @@
     <string name="title_activity_simple_circle">SimpleCircleActivity</string>
     <string name="title_activity_draw_color">DrawColorActivity</string>
     <string name="title_activity_draw_path">DrawPathActivity</string>
+    <string name="title_activity_shader">ShaderActivity</string>
 </resources>

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import junte.customview.R;
 
 public class DrawPathActivity extends BaseActivity {
+    
 
     @Override
     protected int getContentViewLayoutID() {
